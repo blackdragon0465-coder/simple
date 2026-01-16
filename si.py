@@ -16,7 +16,7 @@ else:
     principle = 100.0
     rate = 5.0
     time = 3.0
-    simple_interest = (principle * rate * time)/100
+    simple_interest = 500.0
     print("principle:", principle)
     print("Rate:",rate)
     print("Time:",time)
