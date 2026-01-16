@@ -1,23 +1,23 @@
 import sys
-if len(sys.argv) == 4:
-    print("Usage: python <principle> <rate> <time>")
-    sys.exit[0]
-    principle = float(sys.argv[1])
+if (sys.argv) == 4:
+    print("User input given")
+    script_name = sys.argv[0]
+    principle= float(sys.argv[1])
     rate = float(sys.argv[2])
     time = float(sys.argv[3])
-    simple_interest = (principle * rate * time)/100
-    print("principle:", principle)
-    print("Rate:",rate)
-    print("Time:",time)
-    print("Simple interest:", simple_interest)
+    simple_interest=(principle * rate * time)/100
+
 else:
-    print("Deafault values")
-    sys.exit[0]
-    principle = 100.0
-    rate = 5.0
-    time = 3.0
-    simple_interest = 500.0
-    print("principle:", principle)
-    print("Rate:",rate)
-    print("Time:",time)
-    print("Simple interest:", simple_interest)
+    print("User input not given")
+    script_name = sys.argv[0]
+    principle = 3.0
+    rate = 2.0
+    time = 40.0
+    simple_interest=(principle * rate * time)/100
+
+    print("principle:",principle )
+    print("rate:",rate )
+    print("time:",time)
+    print("simple interest:",simple_interest)
+    
+    
