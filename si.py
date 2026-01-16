@@ -7,6 +7,11 @@ if (sys.argv) == 4:
     time = float(sys.argv[3])
     simple_interest=(principle * rate * time)/100
 
+ print("principle:",principle )
+    print("rate:",rate )
+    print("time:",time)
+    print("simple interest:",simple_interest)
+
 else:
     print("User input not given")
     script_name = sys.argv[0]
